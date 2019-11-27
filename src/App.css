@@ -1,0 +1,15 @@
+.profile a, .profile a:hover, .profile a:active, .profile a:focus, .profile a:link, .profile a:visited  {
+    font-size: 1.14285714rem;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.project img {
+    max-height: 250px;
+    width: auto !important;
+}
+
+.project .project-item {
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
