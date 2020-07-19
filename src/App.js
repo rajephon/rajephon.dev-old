@@ -10,7 +10,7 @@ import fun_history from "./fun_history";
 function App() {
     return (
         <div>
-          <Profile name={'Chanwoo Noh'} description={'1992년생, Software Engineer'} email={'rajephon@gmail.com'}
+          <Profile name={'Chanwoo Noh'} description={'Software Engineer'} email={'rajephon@gmail.com'}
                    linkedIn={'chanwoo-noh-799b79141/'} github={'rajephon'} blog={'https://blog.rajephon.dev/'}/>
           <AboutMe />
           <Project header={'Project'} project_history={project_history}/>

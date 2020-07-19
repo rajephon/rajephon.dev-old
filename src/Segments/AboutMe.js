@@ -8,8 +8,7 @@ function AboutMe() {
             <Header as='h1'>About Me</Header>
             <Header as='h3'>History</Header>
             <List>
-                <List.Item>2018.12. ~ now <a href='https://devsisters.com/' target='_blank'
-                                             rel='noopener noreferrer'>Devsisters</a> Software Engineer</List.Item>
+                <List.Item>2018.12. ~ now. Software Engineer</List.Item>
                 <List.Item>2016.11. ~ 2018.06. <a href='https://anyfi.io' target='_blank' rel='noopener noreferrer'>애니파이
                     Anyfi</a> Software Engineer</List.Item>
                 <List.Item>2010.03. ~ 2017.08. 서울과학기술대학교 컴퓨터공학과 졸업</List.Item>
