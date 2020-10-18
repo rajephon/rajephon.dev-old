@@ -5,6 +5,7 @@ import {Grid, Header, Image, Segment, List} from "semantic-ui-react";
 const arrayChunks = (array, chunk_size) =>
     Array(Math.ceil(array.length / chunk_size)).fill(undefined).map((_, index) => index * chunk_size).map(begin => array.slice(begin, begin + chunk_size));
 
+
 function Project({header, project_history, background, color}) {
     const rows = arrayChunks(project_history, 2).map((items, idx) => {
         const columns = items.map((item, idx) => {
@@ -13,7 +14,7 @@ function Project({header, project_history, background, color}) {
                 <Grid.Column key={idx} className={'project-item'}>
                     <Image size='large' src={item.Image} centered/>
                     <Header as='h3'>
-                        {item.Header}
+                        {item.Url ? <a href={item.Url} target='_blank'>{item.Header}</a> : item.Header}
                     </Header>
                     <List>
                         {item.Summary}
